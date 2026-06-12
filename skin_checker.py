@@ -12,8 +12,7 @@ def get_lockfile_data():
     """Finds the League client lockfile and extracts port and password."""
     possible_paths = [
         "D:/P1/Riot Games/League of Legends/lockfile",
-        "C:/Riot Games/League of Legends/lockfile",
-        "D:/Riot Games/League of Legends/lockfile"
+        "C:/Riot Games/League of Legends/lockfile"
     ]
     
     lockfile_path = None
